@@ -3,12 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MyHello from './MyHello';
+
+// ReactDOM.render(
+// <React.StrictMode>
+//   <App />
+// </React.StrictMode>,
+const name = "Yamada";
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <MyHello name={name}></MyHello>,
+  document.querySelector("#root")
 );
 
 // If you want to start measuring performance in your app, pass a function
