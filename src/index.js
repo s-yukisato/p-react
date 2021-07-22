@@ -1,19 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import MyHello from './MyHello';
+import MyParent from './MyParent';
 
 // ReactDOM.render(
 // <React.StrictMode>
 //   <App />
 // </React.StrictMode>,
-const name = "Yamada";
+
 
 
 ReactDOM.render(
-  <MyHello name={name}></MyHello>,
+  <MyParent></MyParent>,
   document.querySelector("#root")
 );
 
